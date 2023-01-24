@@ -1,0 +1,20 @@
+{
+  "name": "mai_e_chatapp",
+  "version": "1.0.0",
+  "description": "chat app with node and express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "node",
+    "express"
+  ],
+  "author": "EM",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.4"
+  }
+}
