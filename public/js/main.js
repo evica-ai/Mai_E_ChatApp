@@ -28,7 +28,8 @@ const vm = createApp({
         dispatchMessage() {
             socket.emit('chat_message', {
                 content: this.message,
-                name: this.nickname || 'anonymous'
+                name: this.nickname || 'anonymous',
+                is: this.socketID
             })
 
             this.message = "";
