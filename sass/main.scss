@@ -61,3 +61,12 @@ input[type="submit"] {
     right: 0;
     clear: both;
 }
+
+.online {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+}
