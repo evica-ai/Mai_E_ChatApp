@@ -28,6 +28,16 @@
                 <newmsg v-for="message in messages" :message="message"></newmsg>
             </ul>
         </section>
+
+        <section class="status">
+            <h2>Who's Online?</h2>
+            <ul id="user-list">
+                <!-- render a new message components for every new message -->
+                <newstat v-for="message in messages" :message="message"></newstat>
+            </ul>
+        </section>
+
+
     </main>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
